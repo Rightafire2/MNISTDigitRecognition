@@ -161,7 +161,7 @@ After this, we call the function on our training and test data and convert it in
 
 ### NeuralNetwork Class
 
-The NeuralNetwork class is a basic class that takes in the input size (number of neurons in the input layer), hidden layers ()
+The NeuralNetwork class is a basic class that takes the following inputs:
 
 
 - **input_size**: The number of neurons in the input layer. In this case since we have 784 neurons, it would be 784.
