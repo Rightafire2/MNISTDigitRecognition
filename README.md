@@ -16,7 +16,7 @@ A very basic Neural Network, like the network in this repo, could have three mai
 Weights and biases are instrumental in helping a network learn. They are a key component in connecting layers. Weights are numerical representations of how important each neuron connection. Biases are extra parameters that are help the network learn. They can be used to avoid 0 outputs, horizontally shift activation functions to avoid a sole reliance on weights for better fitting, allow for more complex learning patters, and more. For this neural network, the weights and biases connect layers through the following equation:
 
 <div align="center">
-  ![Equation](https://latex.codecogs.com/svg.image?\mathbf{y}=f(\mathbf{W}\cdot\mathbf{x}&plus;\mathbf{b}))
+  <img src="https://latex.codecogs.com/svg.image?\mathbf{y}=f(\mathbf{W}\cdot\mathbf{x}&plus;\mathbf{b})" alt="Equation" />
 </div>
 
 ### Data Manipulation
