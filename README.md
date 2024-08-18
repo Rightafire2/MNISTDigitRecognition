@@ -15,13 +15,17 @@ A very basic Neural Network, like the network in this repo, could have three mai
 
 Weights and biases are instrumental in helping a network learn. They are a key component in connecting layers. Weights are numerical representations of how important each neuron connection. Biases are extra parameters that are help the network learn. They can be used to avoid 0 outputs, horizontally shift activation functions to avoid a sole reliance on weights for better fitting, allow for more complex learning patters, and more. For this neural network, the weights and biases connect layers through the following equation:
 
+$$
+Leaky ReLU(x)-\text{Leaky ReLU}(x) =
+\begin{cases} 
+x & \text{if } x > 0 \\
+\alpha x & \text{if } x \leq 0
+\end{cases}
+$$
 
 $$
 \mathbf{y} = f(\mathbf{W} \cdot \mathbf{x} + \mathbf{b})
 $$
-<p align="center">
-  <img src="https://latex.codecogs.com/svg.image?\bg{white}\mathbf{y}=f(\mathbf{W}\cdot\mathbf{x}&plus;\mathbf{b})" title="\mathbf{y}=f(\mathbf{W}\cdot\mathbf{x}+\mathbf{b})" alt="Layer-Wise Equation" />>
-</p>
 
 ### Data Manipulation
 
