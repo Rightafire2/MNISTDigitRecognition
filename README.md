@@ -54,7 +54,7 @@ $$
 \text{Softmax}(x_i) = \frac{e^{x_i}}{\sum_{j=1}^{n} e^{x_j}}
 $$
 
-The Softmax function runs on an input matrix $x_i$ and computes the division of the exponential function of $x_$ and the sum of the exponential functions for all $n$ elements in the matrix.
+The Softmax function runs on an input matrix $x_i$ and computes the division of the exponential function of $x_i$ and the sum of the exponential functions for all $n$ elements in the matrix.
 
 
 ### Forward Propagation
@@ -182,7 +182,7 @@ The class has methods for training the data, predicting through forward propagat
 - [MNIST Dataset](https://yann.lecun.com/exdb/mnist/)
 - [MNIST-to-CSV](https://github.com/egcode/MNIST-to-CSV)
 - [Neural Networks and Deep Learning](http://neuralnetworksanddeeplearning.com/)
-- [Backpropagation]('https://en.wikipedia.org/wiki/Backpropagation')
-- [An Introduction to Gradient Descent and Backpropagation]('https://towardsdatascience.com/an-introduction-to-gradient-descent-and-backpropagation-81648bdb19b2')
-- [Softmax Layer]('https://deepai.org/machine-learning-glossary-and-terms/softmax-layer')
-- [A Gentle Introduction to the Rectified Linear Unit (ReLU)]('https://machinelearningmastery.com/rectified-linear-activation-function-for-deep-learning-neural-networks/')
+- [Backpropagation](https://en.wikipedia.org/wiki/Backpropagation)
+- [An Introduction to Gradient Descent and Backpropagation](https://towardsdatascience.com/an-introduction-to-gradient-descent-and-backpropagation-81648bdb19b2)
+- [Softmax Layer](https://deepai.org/machine-learning-glossary-and-terms/softmax-layer)
+- [A Gentle Introduction to the Rectified Linear Unit (ReLU)](https://machinelearningmastery.com/rectified-linear-activation-function-for-deep-learning-neural-networks/)
